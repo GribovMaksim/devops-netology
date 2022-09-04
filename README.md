@@ -20,3 +20,4 @@
 # example: *tfplan*
 # Ignore CLI configuration files
 Кофнигурационные файлы terraform.rc и .terraformrc
+#Строка для задания по ветвлению
