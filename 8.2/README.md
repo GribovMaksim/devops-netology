@@ -1,4 +1,4 @@
-###group_vars
+### group_vars
 | Переменная  | Значение | 
 | ------------- | ------------- | 
 | clickhouse_version | версия Clickhouse |
@@ -11,7 +11,7 @@
 Группа "clickhouse" состоит из 1 хоста clickhouse-01
 Группа "vector" состоит из 1 хоста vector-01
 
-###Playbook
+### Playbook
 Playbook состоит из 3 play.
 
 Play "Install Clickhouse" применяется на группу хостов "Clickhouse" и предназначен для установки и запуска Clickhouse
@@ -50,7 +50,7 @@ Play "Install Vector" применяется на группу хостов "Vec
 | Vector | Apply template | Применяем шаблон конфига vector. Здесь мы задаем путь конфига. Владельцем назначаем текущего пользователя ansible. После применения запускаем валидацию конфига |
 | Vector | change systemd unit | Изменяем модуль службы vector. После этого указываем handler для старта службы vector |
 
-###Template
+### Template
 Шаблон "vector.service.j2" используется для изменения модуля службы vector. В нем мы определяем строку запуска vector. Также указываем, что unit должен быть запущен под текущим пользователем ansible
 
 Шаблон "vector.yml.j2" используется для настройки конфига vector. В нем мы указываем, что конфиг файл находится в переменной "vector_config" и его надо преобразовать в YAML.
