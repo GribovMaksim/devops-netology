@@ -2,9 +2,13 @@
 clickhouse:
   hosts:
     clickhouse-01:
-      ansible_host: centos@51.250.86.194
+      ansible_host: centos@158.160.43.99
 
 vector:
   hosts:
     vector-01:
-      ansible_host: centos@130.193.51.44
+      ansible_host: centos@158.160.59.43
+lighthouse:
+  hosts:
+    lighthouse-01:
+      ansible_host: centos@158.160.48.155
