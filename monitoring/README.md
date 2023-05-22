@@ -56,6 +56,16 @@ pull-модель: позволяет ограничить набор агент
 
 P.S.: если при запуске некоторые контейнеры будут падать с ошибкой - проставьте им режим `Z`, например
 `./data:/var/lib:Z`
+
+Ответ: склонировал. Запустились контейнеры.
+Смущает первое: 
+telegraf_1       | 2023-05-22T18:53:10Z E! [inputs.docker] Error in plugin: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json?filters=%7B%22status%22%3A%7B%22running%22%3Atrue%7D%7D": dial unix /var/run/docker.sock: connect: permission denied
+И второе: 
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/3bcac96e-7905-4a96-b696-3c81357e4add)
+А капаситор вообще сразу завершает работу.
+
+Подскажите как исправить, пожалуйста.
+
 #
 8. Перейдите в веб-интерфейс Chronograf (`http://localhost:8888`) и откройте вкладку `Data explorer`.
 
