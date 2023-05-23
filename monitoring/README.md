@@ -59,8 +59,8 @@ P.S.: если при запуске некоторые контейнеры б�
 
 Ответ: склонировал. Запустились контейнеры.
 Запуск из коробки, параметры не трогал. Получаю ошибки:
-kapacitor_1      | ts=2023-05-23T18:00:12.369Z lvl=error msg="failed to connect to InfluxDB, retrying..." service=influxdb cluster=localhost err="Get \"http://localhost:8086/ping\": dial tcp 127.0.0.1:8086: connect: connection refused"
-telegraf_1       | 2023-05-23T18:00:14Z E! [outputs.influxdb] When writing to [http://influxdb:8086]: failed doing req: Post "http://influxdb:8086/write?consistency=any&db=telegraf": dial tcp 172.19.0.3:8086: connect: connection refused
+kapacitor_1      | ts=2023-05-23T18:11:44.805Z lvl=error msg="failed to connect to InfluxDB, retrying..." service=influxdb cluster=default err="Get \"http://influxdb:8086/ping\": dial tcp 172.19.0.3:8086: connect: connection refused"
+telegraf_1       | 2023-05-23T18:11:45Z E! [inputs.influxdb] Error in plugin: Get "http://influxdb:8086/debug/vars": dial tcp 172.19.0.3:8086: connect: connection refused
 В чём может быть причина?
 
 Подскажите как исправить, пожалуйста.
