@@ -58,6 +58,8 @@ P.S.: если при запуске некоторые контейнеры б�
 `./data:/var/lib:Z`
 
 Ответ: 
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/5c423eb3-6731-4151-8ca9-05f5bb9c37cd)
+
 #
 8. Перейдите в веб-интерфейс Chronograf (`http://localhost:8888`) и откройте вкладку `Data explorer`.
 
