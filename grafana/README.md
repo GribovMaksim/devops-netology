@@ -44,7 +44,7 @@
 1. В качестве решения задания приведите скриншот вашей итоговой Dashboard.
 
 Ответ: для наглядности сделал близкие значения алертов. 2 is bellow, 2 is above.
-![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/86784dd2-fe32-4e6d-bbf8-29c5590f73f8)
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/d481ddb3-f4eb-4658-8192-b9a67f5cda0a)
 
 ## Задание 4
 
