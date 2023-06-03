@@ -31,4 +31,5 @@
 
 ---
 Declarative: https://github.com/GribovMaksim/vector-role/blob/main/Jenkinsfile
+
 Scripted: https://github.com/GribovMaksim/jenkins/blob/main/ScriptedJenkinsfile
