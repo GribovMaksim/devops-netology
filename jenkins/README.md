@@ -30,3 +30,5 @@
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
 ---
+Declarative: https://github.com/GribovMaksim/vector-role/blob/main/Jenkinsfile
+Scripted: https://github.com/GribovMaksim/jenkins/blob/main/ScriptedJenkinsfile
