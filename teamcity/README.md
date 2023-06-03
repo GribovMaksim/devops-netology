@@ -38,3 +38,4 @@
 Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
 
 ---
+Ссылка не репозиторий: https://github.com/GribovMaksim/example-teamcity/tree/master
