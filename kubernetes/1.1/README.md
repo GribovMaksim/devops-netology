@@ -89,5 +89,6 @@
 ------
 
 ### Скриншоты
-1.
-2.
+1. ![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/9021920b-3acf-4539-a5e6-1d97811b02a3)
+
+2. ![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/dd10e218-8ecf-4196-abb5-1077cef50151)
