@@ -52,15 +52,15 @@
 На доработку — задание выполнено частично или не выполнено, в логике выполнения заданий есть противоречия, существенные недостатки.
 
 ### Решение
-1.1.  
-1.2. 
-1.3. 
+1.1. ![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/6cd0dcc4-c0d3-484f-8870-0693f2507868)
+1.2. ![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/8c9d75b5-0968-4023-af32-1afc8e73023a)
+1.3. ![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/121ed6d0-5bb6-4f43-b293-a63f430d36dd)
 
-2.1.
-2.2.
-2.3.
+2.1. ![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/ab1aa2bd-5682-4986-924b-731102e28dcd)
+2.2. ![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/8d67849e-5da4-48e0-9318-e072a710b34e)
+2.3. ![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/e63fa439-7e1e-4c02-afbc-319fff77edf3)
 
 ### Манифесты
-1.
-2.
-3.
+1. https://github.com/GribovMaksim/devops-netology/blob/main/pod.yaml
+2. https://github.com/GribovMaksim/devops-netology/blob/main/netology-web.yaml
+3. https://github.com/GribovMaksim/devops-netology/blob/main/service.yaml
