@@ -73,11 +73,11 @@
 
 ![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/f30c685a-1317-4925-97bd-b7b9287e0643)
 
-![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/55c24ba1-e6c6-42c8-8703-7f47d1e65092)
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/2f49745d-b3d6-4f97-8015-fffd367e69ea)
 
 [Service2](https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.3/service2.yml)
 
-![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/d22bbd1a-ec08-4987-a564-990d10a1a27b)
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/d03f328c-fc60-44c0-aee9-b1421ea4aba7)
 
 ------
 
