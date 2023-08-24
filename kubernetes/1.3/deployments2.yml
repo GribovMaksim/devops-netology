@@ -25,3 +25,4 @@ spec:
       initContainers:
         - name: busybox
           image: hitenok/busybox_netology:0.0.1
+          command: ['sh', 'init.sh']
