@@ -57,6 +57,7 @@ backend
 4. Предоставить манифесты и скриншоты или вывод команды п.2.
 
 Ответ: 
+
 [ingress](https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.5/ingress.yml)
 
 ![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/af54c197-284c-4725-88b3-f35c9afea691) 
