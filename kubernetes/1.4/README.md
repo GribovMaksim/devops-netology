@@ -30,6 +30,15 @@
 4. Продемонстрировать доступ с помощью `curl` по доменному имени сервиса.
 5. Предоставить манифесты Deployment и Service в решении, а также скриншоты или вывод команды п.4.
 
+Ответ:
+[deployment](https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.4/deployment.yml)
+
+[service](https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.4/service.yml)
+
+[pod](https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.4/pod.yml)
+
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/7d75880d-4cb0-49b0-8087-798a039b0c01)
+
 ------
 
 ### Задание 2. Создать Service и обеспечить доступ к приложениям снаружи кластера
@@ -37,6 +46,13 @@
 1. Создать отдельный Service приложения из Задания 1 с возможностью доступа снаружи кластера к nginx, используя тип NodePort.
 2. Продемонстрировать доступ с помощью браузера или `curl` с локального компьютера.
 3. Предоставить манифест и Service в решении, а также скриншоты или вывод команды п.2.
+
+Ответ:
+[service2](https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.4/service2.yml)
+
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/a8240e68-1a16-4a06-a7f3-dcd550d22118)
+
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/cdb7b19f-dd4c-4def-9dc9-7a2ddfccfde3)
 
 ------
 
