@@ -32,12 +32,17 @@
 5. Предоставить манифесты Deployment и Service в решении, а также скриншоты или вывод команды п.4.
 
 Ответ: 
-frontend 
+
+frontend
+
 [deployment](https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.5/frontend/deployment.yml) 
+
 [service](https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.5/frontend/service.yml)
 
 backend
+
 [deployment](https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.5/backend/deployment.yml) 
+
 [service](https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.5/backend/service.yml) 
 
 ![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/205f72f5-f6ac-49cc-b075-bf44060f0479) 
