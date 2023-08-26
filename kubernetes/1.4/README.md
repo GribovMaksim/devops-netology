@@ -30,7 +30,7 @@
 4. Продемонстрировать доступ с помощью `curl` по доменному имени сервиса.
 5. Предоставить манифесты Deployment и Service в решении, а также скриншоты или вывод команды п.4.
 
-Ответ:
+Ответ: 
 
 [deployment](https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.4/deployment.yml)
 
@@ -48,7 +48,7 @@
 2. Продемонстрировать доступ с помощью браузера или `curl` с локального компьютера.
 3. Предоставить манифест и Service в решении, а также скриншоты или вывод команды п.2.
 
-Ответ:
+Ответ: 
 
 [service2](https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.4/service2.yml)
 
