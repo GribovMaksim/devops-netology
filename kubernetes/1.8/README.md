@@ -27,6 +27,7 @@
 
 ### Настройка мастер ноды:
 
+```bash
 vagrant@master:~$ sudo apt-get update -y
 vagrant@master:~$ sudo apt-get install -y apt-transport-https ca-certificates curl
 
@@ -135,9 +136,9 @@ kubeadm join 10.129.0.30:6443 --token 7wgc9z.0sq7d2w3rr7k80q5 \
 vagrant@master:~$ mkdir -p $HOME/.kube
 vagrant@master:~$ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 vagrant@master:~$ sudo chown $(id -u):$(id -g) $HOME/.kube/config
-
+```
 ### Настройка worker ноды:
-
+```bash
 Проделываем те же манипуляции, что и с master нодой.
 vagrant@vorker1:~$ sudo kubeadm join 10.129.0.30:6443 --token 7wgc9z.0sq7d2w3rr7k80q5 \
 >         --discovery-token-ca-cert-hash sha256:272c882c2bb5ffe59f6a5110d42dffa2e725da4aa224553501411b361533a676
@@ -154,11 +155,13 @@ This node has joined the cluster:
 * The Kubelet was informed of the new secure connection details.
 
 Run 'kubectl get nodes' on the control-plane to see this node join the cluster.
-
+```
 Далее устанавливаем плагин для работы с сетью
+```bash
 vagrant@master:~$ kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
-
+```
 Затем проверяем, что поды запущены
+```bash
 vagrant@master:~$ kubectl get nodes
 NAME      STATUS   ROLES           AGE   VERSION
 master    Ready    control-plane   40m   v1.28.1
@@ -166,7 +169,7 @@ vorker1   Ready    <none>          12m   v1.28.1
 vorker2   Ready    <none>          8m   v1.28.1
 vorker3   Ready    <none>          4m   v1.28.1
 vorker4   Ready    <none>          72s   v1.28.1
-
+```
 ## Дополнительные задания (со звёздочкой)
 
 **Настоятельно рекомендуем выполнять все задания под звёздочкой.** Их выполнение поможет глубже разобраться в материале.   
