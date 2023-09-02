@@ -1,31 +1,31 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cache
+  name: frontend
   namespace: app
   labels:
-    app: cache
+    app: frontend
 spec:
   selector:
     matchLabels:
-      app: cache
+      app: frontend
   template:
     metadata:
       labels:
-        app: cache
+        app: frontend
     spec:
       containers:
-        - name: cache
+        - name: frontend
           image: wbitt/network-multitool
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: cache-service
+  name: frontend-service
   namespace: app
 spec:
   selector:
-    app: cache
+    app: frontend
   ports:
     - protocol: TCP
       port: 80
