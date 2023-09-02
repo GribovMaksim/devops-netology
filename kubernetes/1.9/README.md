@@ -24,6 +24,25 @@
 4. Создать политики, чтобы обеспечить доступ frontend -> backend -> cache. Другие виды подключений должны быть запрещены.
 5. Продемонстрировать, что трафик разрешён и запрещён.
 
+Ответ:
+
+Сначала создал namespace: app. У меня уже был установлен сетевой контроллер calico.
+Затем применил манифесты:
+
+https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.9/back-deployment.yaml
+
+https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.9/cache-deployment.yaml
+
+https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.9/calico-networkpolicy.yaml
+
+https://github.com/GribovMaksim/devops-netology/blob/main/kubernetes/1.9/front-deployment.yaml
+
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/163f7e3d-c603-43d7-a4c0-32953e37fd5b)
+
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/c19c074d-87f4-4408-8f9d-897fcc251d89)
+
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/f0f04d7d-c3ab-4b58-bf8b-26db658ae11c)
+
 ### Правила приёма работы
 
 1. Домашняя работа оформляется в своём Git-репозитории в файле README.md. Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
