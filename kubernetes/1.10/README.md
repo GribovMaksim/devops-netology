@@ -36,7 +36,21 @@
 
 Ответ:
 
+Создал деплоймент приложения
 
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/5a88f5ad-1da9-4056-91d7-d2a18aa9f1dc)
+
+Обновил версию приложения nginx до 1.20
+
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/8ec91a6e-9d1a-4de9-8b8b-81f4e265c542)
+
+Обновил до 1.28
+
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/b76b43d5-9214-4b8d-b651-5ded7689cb58)
+
+Откат на рабочую версию (1.20)
+
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/6b1c1176-dc68-476e-bbb6-4e3e588a3b2c)
 
 ## Дополнительные задания — со звёздочкой*
 
