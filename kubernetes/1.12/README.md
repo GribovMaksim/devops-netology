@@ -33,6 +33,13 @@ Resource Terraform для Yandex Cloud:
 
 Ответ:
 
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/91f5ce8b-1587-4e2b-97b1-e05648c3def2)
+
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/9475d559-4063-4453-84e6-ff84b83dc46c)
+
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/226043a5-61c4-40d5-8e1b-e80d86459d2d)
+
+![image](https://github.com/GribovMaksim/devops-netology/assets/112322500/9bd07501-3f54-4ac8-9315-efc8e4237bab)
 
 ---
 ### Задание 2. AWS* (задание со звёздочкой)
