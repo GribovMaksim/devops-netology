@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: nginx
+  repository: maxonceg/nginx
   tag: "latest"
 service:
   type: NodePort
