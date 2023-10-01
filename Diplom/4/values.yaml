@@ -1,0 +1,8 @@
+replicaCount: 1
+image:
+  repository: cr.yandex/crpdbp2l62e27561k4uo
+  tag: "nginx:alpine"
+service:
+  type: NodePort
+  port: 80
+  nodePort: 30001
