@@ -4,8 +4,8 @@ terraform {
     bucket   = "diplom-terraform"
     key        = "diplom/terraform.tfstate" # path to my tfstate file in the bucket
     region     = "ru-central1-a"
-    access_key = "YCAJEKO5d36keESEN3y_hIVQ4"
-    secret_key = "YCN5ZkXas-AhG7eZ70DB7Ikbsiaa3DY5sW7Nw-dA"
+    access_key = "${var.key_id}"
+    secret_key = "${var.secret_key}"
     skip_region_validation      = true
     skip_credentials_validation = true
   }
